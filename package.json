@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ruby -run -e httpd . -p 8008",
+    "start-ruby": "ruby -run -e httpd . -p 8008",
+    "start-node": "npx http-server . -p 8008",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thomas Asheim Smedmann",

@@ -3,11 +3,21 @@
 ## Host with Ruby
 Run
 ``` shell
-npm start
+npm start-ruby
 ```
 Or
 ``` shell
 ruby -run -e httpd . -p 8008
+```
+
+## Host with Node.js
+Run
+``` shell
+npm start-node
+```
+Or
+``` shell
+npx http-server . -p 8008
 ```
 
 ## Sites
