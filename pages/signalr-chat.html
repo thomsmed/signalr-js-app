@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>SignalR Chat Client</title>
+  <meta name="description" content="SignalR Chat Client">
+  <meta name="author" content="Thomas Asheim Smedmann">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <h1>Welcome to SignalR Chat</h1>
+
+    <h3>Nickname:</h3>
+    <input type="text" id="nickname" />
+
+    <h3>Write a message:</h3>
+    <textarea id="message-box" rows="4" cols="50"></textarea>
+    <button type="button" id="send-button">Send</button>
+    <select id="group-select">
+    </select>
+    <button type="button" id="toggle-private-group">Join private group</button>
+
+    <h3>Chat:</h3>
+    <div id="chat-box"></div>
+
+    <h3>Activity Log:</h3>
+    <div id="activity-log-box"></div>
+
+    <script src="/node_modules/@aspnet/signalr/dist/browser/signalr.js"></script>
+    <script src="/js/chat.js"></script>
+</body>
+</html>
