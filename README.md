@@ -3,7 +3,7 @@
 ## Host with Ruby
 Run
 ``` shell
-npm start-ruby
+npm run start-ruby
 ```
 Or
 ``` shell
@@ -13,7 +13,7 @@ ruby -run -e httpd . -p 8008
 ## Host with Node.js
 Run
 ``` shell
-npm start-node
+npm run start-node
 ```
 Or
 ``` shell
